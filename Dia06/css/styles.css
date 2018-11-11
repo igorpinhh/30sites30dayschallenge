@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway|Source+Sans+Pro");
+body {
+  color: #fff;
+  background-image: url(../imagens/image3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif; }
+
+nav {
+  height: 8vh;
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-around;
+  align-items: center; }
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none; }
+
+.logo {
+  font-size: 1.3em;
+  font-weight: 800; }
+
+.logo :link {
+  color: #fff;
+  text-decoration: none; }
+
+nav {
+  text-transform: capitalize; }
+
+.nav-links {
+  display: flex; }
+
+.icons img {
+  margin: 0 1em;
+  width: 1.5em;
+  height: 1.5em; }
+
+.container {
+  margin-top: 10em;
+  width: 30%;
+  height: 1vh;
+  display: flex;
+  flex-direction: column; }
+
+.rows {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.part-1 {
+  width: 65vw;
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  margin-right: 5em; }
+
+.menu-links-1 {
+  width: 12vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.bar-rotation-1 {
+  height: 4vw;
+  width: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg); }
+
+.bar-rotation-1 a {
+  color: #fff;
+  padding: 15px;
+  text-transform: uppercase; }
+
+.bar-rotation-1 a:link {
+  color: white;
+  text-decoration: none; }
+
+.center-info {
+  width: 90vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column; }
+
+.date {
+  margin: 0 0 1em 0; }
+
+h1 {
+  text-transform: capitalize;
+  width: 50%;
+  font-size: 5em;
+  font-weight: 900; }
+
+.parag {
+  line-height: 2em; }
+
+.button {
+  text-transform: capitalize;
+  position: relative;
+  top: 2em;
+  left: 55em; }
+
+button {
+  border: none;
+  background-color: #ec0d57;
+  color: #fff;
+  border-radius: 3px;
+  padding: 1.3em 2.6em; }
+
+.bar-rotation-2 {
+  margin-left: 20em;
+  width: 24vh;
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
+.bar-rotation-2 a:link {
+  color: white;
+  text-decoration: none; }
+
+.line-1 {
+  margin-left: 10px;
+  width: 100%;
+  border: 1px solid #ec0d57; }
+
+.line-2 {
+  margin-right: 10px;
+  width: 100%;
+  border: 1px solid;
+  border-color: #999999; }
+
+.info-bar {
+  margin: 0 auto;
+  position: relative;
+  top: 23em;
+  left: 1em;
+  width: 90%;
+  height: 9vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.princ-infos {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.princ-infos p {
+  font-size: 0.9em;
+  text-transform: capitalize; }
+
+.arrows img {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ec0d57;
+  width: 1.5em;
+  height: 1.5em; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+html {
+  background: url(../imagens/image1.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Rubik", sans-serif; }
+
+header {
+  width: 100vw;
+  height: 10vh;
+  font-weight: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px 1px black; }
+
+header a:link {
+  text-decoration: none;
+  color: #fff; }
+
+.nav-main-links {
+  width: 100vw;
+  height: 10vh;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase; }
+
+.logo {
+  font-size: 1.4em;
+  font-weight: 800; }
+
+.nav-main-links a {
+  margin: 0 1.4em; }
+
+.menu {
+  display: flex; }
+
+main {
+  color: #fff; }
+
+.container {
+  margin-top: 5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 14px 0 rgba(0, 0, 0, 0.5); }
+
+.rows {
+  display: flex;
+  width: 60%; }
+
+.block-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.anounce {
+  display: flex; }
+
+.first-p {
+  margin-right: 20px;
+  text-decoration: line-through; }
+
+.block-info h1 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 3em; }
+
+.block-info h2 {
+  font-size: 1.2em; }
+
+.paragh {
+  line-height: 25px;
+  margin-top: 1em; }
+
+.block-info h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-top: 1.4em;
+  display: flex;
+  order: 05; }
+
+.main-buttons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize; }
+
+.main-buttons button {
+  border: none;
+  color: white;
+  background-color: transparent;
+  margin: 0 10px; }
+
+.main-buttons div {
+  margin: 0 15px 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; }
+
+/*# sourceMappingURL=style.css.map */

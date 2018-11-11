@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody|Lato|PT+Sans');
+
+
+body {
+  background-image: url(../imagens/image3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+navbar {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Hi Melody', cursive;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3.3em;
+  color: white;
+  margin-left: 0.4em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navlinks {
+  background-color: #fff;
+  padding: 1.5em;
+}
+
+.navlinks a {
+  margin: 1em;
+  color: black;
+}
+
+.navlinks a:link {
+  text-decoration: none;
+}
+
+.icon {
+  margin: 0 1.5em;
+}
+
+.logo-orb :link{
+  text-decoration: none;
+}
+
+.logo-orb :hover{
+  // color: red
+}
+
+main {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.rows h1{
+  display: inline;
+  margin: 1.5em 0.6em 0 0.6em ;
+  font-size: 4em;
+  float: left;
+}
+
+.agroup {
+  border-radius: 2px;
+  padding: 0.7em;
+  background-color: rgba(#fff, 0.3);
+  display: inline;
+  position: relative;
+  top: 22em;
+  left: 2em;
+}

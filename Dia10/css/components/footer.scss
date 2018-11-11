@@ -1,0 +1,50 @@
+footer {
+  width: 100%;
+  height: 30vh;
+  @include center-align;
+  animation: body;
+  @include animation-time;
+  // border: 1px solid red;
+}
+
+.row {
+  width: 100%;
+  height: 90%;
+  @include center-align;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.copyright{
+  display: flex;
+  align-self: center;
+  text-transform: capitalize;
+  transform: rotate(-90deg);
+}
+
+.pagination {
+  @include center-align;
+  justify-content: flex-start;
+  width: 55%;
+  p:not(.border) {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0 5px;
+  }
+}
+
+.border {
+  border: 1px solid white;
+  width: 160px;
+  height: 0;
+}
+
+.foo-icons {
+  margin-right: 3.5em;
+  @include center-align;
+  i {
+    margin: 0 25px;
+    font-size: 1.5em;
+  }
+}

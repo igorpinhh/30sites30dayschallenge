@@ -1,0 +1,40 @@
+body {
+    background-image: url(../images/daniil-silantev-318853-unsplash.jpg);
+    // background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+header {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    a {
+        color: white;
+        font-weight: 800;
+        text-transform: capitalize;
+        padding: 10px;
+        text-decoration: none;
+       }
+}
+
+.logo {
+    margin: 0 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin: 0 1.5em;
+    ul {
+        display: flex;   
+        list-style: none;
+    }
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+$margin-nav: 0.8em 2.5em;
+
+
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.part-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rows {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar img {
+  display: block;
+  margin: 4vh;
+}
+
+.icons-social{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+
+.principal-image img {
+  width: 47vw;
+  height: 100vh;
+}
+
+.mark {
+  margin-left: 3.4em;
+}
+
+.textos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-top {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 3vh 0 7vh 0;
+}
+
+.total {
+  margin-top: 3em;
+ text-transform: uppercase;
+ font-weight: 500;
+}
+
+.links {
+  margin: 1.5em;
+  display: flex;
+}
+
+.tex-infu {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4em;
+}
+
+.parag {
+  margin-top: 0.8em;
+  color: lighten(black, 60%);
+}
+
+.links a {
+  text-transform: uppercase;
+  color: lighten(black, 50%);;
+  margin: 3em 1em;
+}
+
+a:link {
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.container {
+  width: 100%;
+  @include center-align;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.main-text {
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  width: 80%;
+  text-align: right;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-end;
+  animation: main-text;
+  @include animation-time;
+  p {
+    line-height: 0.85em;
+    font-size: 5em;
+  }
+  button {
+    margin-top: 2.5em;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+    background-color: #3383ff;
+    color: #fff;
+    animation: main-button 1s;
+  }
+}
+
+.box {
+  width: 60%;
+  float: right;
+}

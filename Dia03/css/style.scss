@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|Lato|Montserrat');
+
+
+body {
+  background-image: url(../imagens/image3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  /*font-family: 'Gugi', cursive;
+  */
+}
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 1em 1.4em;
+  width: 2em;
+  height: 2em;
+}
+
+.menu {
+  margin: 1em 1.4em;
+  width: 2em;
+  height: 2em;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 3px;
+  margin: 9em 1.4em;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.container p {
+  margin-left: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+.container h1 {
+  margin-left: 15px; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 14px;
+}
+
+.container h2 {
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 14px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+.btn-primary {
+  width: 14em;
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.button-go {
+  display: flex;
+  align-items: center;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.img-icon {
+  width: 1.3em;
+  height: 1.3em;
+}

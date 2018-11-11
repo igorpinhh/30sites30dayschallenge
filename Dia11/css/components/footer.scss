@@ -1,0 +1,24 @@
+footer {
+	grid-row: 3;
+	border: 1px solid red;
+}
+
+.infos {
+	// width: 90%;
+	display: flex;
+	border: 1px solid red;
+	flex-direction: row;
+}
+
+.box-1, .box-2, .box-3 {
+	width: 33.333333%;
+}
+
+.btn-bg-change {
+	width: 30%;
+	height: 100%;
+	img {
+		width: 30px;
+		height: 30px;
+	}
+}

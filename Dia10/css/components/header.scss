@@ -1,0 +1,69 @@
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/background.jpeg);
+	background-size: cover;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	// animation: body 5s;
+}
+
+header {
+	width: 100%;
+	height: 10vh;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	animation: header;
+	@include animation-time;
+}
+
+.navbar {
+	width: 90%;
+	height: 100%;
+	@include center-align;
+	justify-content: space-between;
+}
+
+.site-logo {
+	// animation: logo;
+	// animation-duration: 1.1s;
+	a{
+		outline: none;
+		font-size: 1.5em;
+		display: block;
+		color: #fff;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}
+
+nav {
+	float: left;
+	width: 60%;
+	ul {
+		@include center-align;
+		align-items: center;
+		li {
+			list-style: none;
+			a{
+				color: #fff;
+				padding: 7px 15px ;
+				margin: 0 10px;
+				text-transform: capitalize;
+				&:link, :active{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.ico {
+	padding: 4px 10px;
+	border-radius: 5px;
+	margin: 0 20px;
+ 	font-size: 1.3em;
+	color: white;
+	transition: all 100ms ease-in;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+body {
+  background-color: #C9C9C9;
+  font-family: 'Open Sans', sans-serif; }
+
+nav {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  margin: 0.8em 2.5em;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif; }
+
+.logo:link {
+  text-decoration: none; }
+
+nav img {
+  margin: 0.8em 2.5em;
+  width: 1.3em;
+  height: 1.3em; }
+
+.rows {
+  width: 20vh; }
+
+.port-img {
+  border-radius: 120px;
+  width: 47vw;
+  height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */

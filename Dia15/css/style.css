@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Condensed|Source+Sans+Pro");
+@import url(../../normalize.css);
+body {
+  background-image: url(../images/daniil-silantev-318853-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+header {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif; }
+  header a {
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding: 10px;
+    text-decoration: none; }
+
+.logo {
+  margin: 0 1.5em;
+  font-family: 'Montserrat', sans-serif; }
+
+nav {
+  margin: 0 1.5em; }
+  nav ul {
+    display: flex;
+    list-style: none; }
+
+main {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(7, 1fr); }
+
+.grid-container {
+  grid-column: 2/7;
+  grid-row: 2/7; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .content h1 {
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em; }
+  .content p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em; }
+
+.buttons {
+  display: flex; }
+  .buttons button {
+    margin: 0 10px;
+    display: block;
+    padding: 5px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1em; }
+
+.start {
+  border-color: orange; }
+
+.account {
+  border-color: aqua; }
+
+/*# sourceMappingURL=style.css.map */

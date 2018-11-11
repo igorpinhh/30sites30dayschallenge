@@ -1,0 +1,104 @@
+@mixin animation-time {
+    animation-duration: 0.8s;
+}
+
+@keyframes logo {
+    from {
+        font-size: 0;
+        position: relative;
+        right: 10em;
+    }
+    to {
+        position: relative;
+        right: 0;
+        border: none;
+    }
+}
+
+@keyframes header{
+    0% {
+        opacity: 0;
+        display: none;
+        width: 0;
+        // flex-direction: column;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        display: flex;
+    }
+}
+
+@keyframes main-text {
+    0% {
+        opacity: 0;
+        width: 100%;
+        position: relative;
+        right: 13em;
+        // text-align: left;
+        // justify-content: flex-start;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        // text-align: right;
+        // justify-content: flex-end;
+    }
+}
+
+@keyframes main-button {
+    from {
+        display: none;
+        position: relative;
+        left: 7em;
+        // position: relative;
+        // bottom: 10em;
+    }
+
+    to {
+        display: inline;
+        position: relative;
+        left: 0;
+    }
+}
+
+@keyframes body {
+    0% {
+        opacity: 0;
+        // width: 300%;
+        // height: 0;
+        position: relative;
+        bottom: 3em;
+        // left: 10em;
+        // display: inline-block
+    }
+
+    // 30% {
+        // opacity: 0;
+    // }
+
+    100% {
+        position: relative;
+        bottom: 0;
+        // left: 0;
+        // opacity: 100%;
+    }
+}
+
+.ico {
+    &:hover {
+        background-color: rgba(black, 0.3);
+        transform: scale(1.5);
+    }
+}

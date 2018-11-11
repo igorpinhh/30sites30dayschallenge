@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Day14</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" 
+        crossorigin="anonymous">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+
+            <section>
+                <a href="#" class="logo"><i class="fas fa-bars adapter"></i></a>
+                        
+                <div id="icons">
+                    <ul>
+                        <li><a href="#" class="nav-links"><i class="fab fa-twitter adapter"></i></a></li>
+                        <li><a href="#" class="nav-links"><i class="fab fa-linkedin-in adapter"></i></a></li>
+                        <li><a href="#" class="nav-links"><i class="fab fa-facebook-f adapter"></i></a></li>
+                    </ul>
+                </div>
+
+            </section>
+            
+
+            <main>
+                <div class="top-text">
+                    <p>fashion & art week</p>
+                </div>
+
+                <div class="row">
+                    <div class="main-box">
+
+
+                        <div class="column-1">
+                            <div class="left">
+                                <h1>paris</h1>
+                                <h2>fashion week</h2>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <button>see more</button>
+                                <div class="numerize">
+                                    <p>01</p>
+                                    <span></span>
+                                    <p>02</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="column-2">
+                        <div class="right">
+                            <h3>vogue</h3>
+                            <span>03</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="navbar">
+                            <ul>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">fashion</a></li>
+                                <li><a href="#">designers</a></li>
+                                <li><a href="#">runways</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+
+                
+            </main>
+
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import '../../normalize.css';
+
+
+body {
+    background-image: url(../images/pexels-photo-244371.jpeg);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+section {
+    color: black;
+    font-size: 1.4em;
+    width: 50px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icons {
+    font-size: 0.7em;
+    height: 30%;
+    
+}
+
+#icons ul {
+    list-style: none;
+}
+
+.adapter {
+    padding: 10px;
+    color: black
+}
+
+main {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    border:  1px solid red;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-text {
+    height: 20%;
+    border: 1px solid red;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.column-1 {
+    color: white;
+    width: 35%;  
+    height: 50%;  
+}
+
+.left {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.column-1 h1 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 5em; 
+}
+
+.column-1 h2 {
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+}
+
+.column-1 button {
+    margin: 0;
+    text-transform: capitalize;
+    padding: 5px 0;
+    width: 180px;
+    color: white;
+    background-color: transparent;
+    border:  1px solid white;
+}
+
+.numerize {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.numerize p {
+    padding: 0 5px;
+    font-size: 0.8em;
+}
+
+.numerize span {
+    display: block;
+    border: 1px solid white;
+    width: 100px;
+    height: 0;
+}
+
+.column-2 {
+    color: white;
+    width: 35%; 
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-2 h3 {
+    font-size: 3.5em;
+}
+
+.column-2 span {
+    padding: 2px;
+    border-bottom: 1px solid white;
+}
+
+.navbar {
+    
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
